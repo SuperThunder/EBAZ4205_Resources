@@ -1,0 +1,80 @@
+---JTAG header (J8)---
+Top row: (closer to edge) all GND
+Bottom row: nc nc TDI TDO TCK TMS Vcc
+
+TCK/TMS/TDO/TDI and pulled up to Vcc by 4.7kOhm, are in series with 22 Ohm to pin
+
+---UART Header (J7)---
+Reference: Ethernet to left, SD to right
+Vcc Tx Rx GND
+
+Rx is U3.A.16 but MIO 25
+Tx is U3.F.15 but MIO 24
+
+note: Can get JTAG printf using 'CoreSight'
+
+
+---JTAG HS3 adapter---
+With notch at Top
+
+TDI x   TMS TDO TCK
+x   x   x   Vcc GND
+
+
+
+---Notes on using UART to CH340C of VGA+power+serial adapter board---
+
+CH340C is connected through Data2 connector of EBAZ4205
+at right side, notch at top:
+
+Rx  GND 12v
+Tx  GND 12v
+
+CH340 Rx: DATA2_5 -> G20 -> PS Tx
+CH340 Tx: DATA2_6 -> J18 -> PS Rx
+
+Route to EMIO (in PS conf) -> PL (XDC) -> Data2
+
+'Should work with PS UART or by AXI UARTLite'
+
+xdc for RX:
+set_property PACKAGE_PIN J18 [get_ports{UART_1_0_rxd}]
+set_property IOSTANDARD LVCMOS33 [get_ports{UART_1_0_rxd}]
+
+xdc for TX:
+set_property PACKAGE_PIN G20 [get_ports{UART_1_0_txd}]
+set_property IOSTANDARD LVCMOS33 [get_ports{UART_1_0_txd}]
+
+Make UART1 external!
+
+One Chinese example used UART0 since UART1 is MIO24/25 routed
+
+
+---Choosing UART in Vitis---
+platform.spr -> modify BSP -> overview -> standalone -> stdin / stdout
+
+Can be set to PS UART0, UART1, CoreSight, or none
+
+Note: when using CoreSight, it inexplicably defaults to showing CoreSight for Core 1, not Core 0. 
+It will say 'TCF Debug Virtual Terminal - ARM Cortex-A9 MPCore #1' underneath the 'Console' tab.
+Switch with the computer screen-ish icon in the upper right of the tab bar.
+
+
+---Board info---
+LEDs:
+W13 - Red
+W14 - Green
+A17 - Button (active high)
+
+
+
+---Powering board---
+Anything 5v - 12v is probably fine. Couldn't actually identify the voltage regulator for the Zynq/RAM/NAND/ethernet, but it's probably some kind of SMPS putting out 3.3v.
+My expansion board uses a DC barrel jack with 5V 2A adapter, which powers the board through the connections on the Data1/2/3 ports. It's also possible to use one of the 4 pin (fan?) headers or the 6pin connector (soldering diodes / short the diode pads possibly required).
+
+
+
+---PetaLinux notes---
+Best guide here: https://webuiltawallwebuiltthepyramids.blogspot.com/2021/01/ebaz4205-petalinux-installation.html
+
+To add extra packages, use petalinux-config -c rootfs after doing the initial petalinux-config. A surprising amount is available, even Python3 and Gnome.
