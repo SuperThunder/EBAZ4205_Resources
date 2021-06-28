@@ -35,5 +35,5 @@ This can be done with GParted, the windows disk management tool, etc.
 
 ## Copy PetaLinux files
 
-Copy BOOT.bin and image.ub to the FAT32 partition. Put it into your SD card slot, plug in your serial adapter (115200 8N1), and then power the board. You should immediately see the output from Linux booting.
+Copy BOOT.bin and image.ub to the FAT32 partition. Put it your SD card to the slot on the board, plug in your serial adapter (115200 8N1), and then power the board. You should immediately see the output from Linux booting.
 
