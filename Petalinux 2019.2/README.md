@@ -10,9 +10,13 @@ Serial is routed to the Data2 header for use with the adapter board that has a V
 The pinout of Data2 with the board facing up, on the right side of the Data2:
 
 TOP SIDE
+
 ...	Zynq_Tx		GND	12v | RIGHT SIDE
+
 ...	Zynq_Rx		GND	12v |
+
 BOTTOM SIDE
+
 
 
 If you need a version of these files that contains the change for Y3-less boards or you want the serial port routed elsewhere, make an issue with the changes you want.
