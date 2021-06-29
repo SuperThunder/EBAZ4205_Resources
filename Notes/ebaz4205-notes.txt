@@ -78,3 +78,15 @@ My expansion board uses a DC barrel jack with 5V 2A adapter, which powers the bo
 Best guide here: https://webuiltawallwebuiltthepyramids.blogspot.com/2021/01/ebaz4205-petalinux-installation.html
 
 To add extra packages, use petalinux-config -c rootfs after doing the initial petalinux-config. A surprising amount is available, even Python3 and Gnome.
+However, not many can be added without overwhelming the default rootfs!
+It must be changed to the second partition of the SD card as discussed here: https://forums.xilinx.com/t5/Embedded-Linux/Adding-Utilities-to-PetaLinux-Build-Causes-Boot-Failure/td-p/956119
+
+If you enable FPGA Manager, then for some reason it does not pack the bitstream for the FPGA into boot.bin. This means that if your serial port is connected through EMIO, that never gets configured, and never does ethernet as that is also through EMIO.
+relevant post: https://forums.xilinx.com/t5/Embedded-Linux/FPGA-Manager-FSBL-bitstream-Petalinux-2019-2/td-p/1049439
+
+The solution is apparently to NOT include fpga-manager in the initial configuration, but to include fpga-util in rootfs or even directly write to the kernel device
+See: https://forums.xilinx.com/t5/Embedded-Linux/Inclusion-of-the-FPGA-Manager-causes-a-petalinux-build-failure/td-p/1211157
+
+The default SSH server, Dropbear, does not allow root logins by default. So you need to make another user using serial (or in the config stage of petalinux) or reconfigure dropbear as described here: https://forums.xilinx.com/t5/Embedded-Linux/dropbear-root-login-petalinux-2019-1/td-p/979852). However, in versions ~2020 and before, the flag used to disallow root login is broken, so if you enter the root password twice you can log in.
+
+
