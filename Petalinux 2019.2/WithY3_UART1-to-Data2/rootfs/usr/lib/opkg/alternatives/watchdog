@@ -1,0 +1,2 @@
+/sbin/watchdog
+/bin/busybox.nosuid 50

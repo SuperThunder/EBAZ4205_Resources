@@ -1,0 +1,3 @@
+/usr/bin/less
+/bin/busybox.nosuid 50
+/usr/bin/less.less 100
