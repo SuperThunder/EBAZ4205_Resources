@@ -90,3 +90,39 @@ See: https://forums.xilinx.com/t5/Embedded-Linux/Inclusion-of-the-FPGA-Manager-c
 The default SSH server, Dropbear, does not allow root logins by default. So you need to make another user using serial (or in the config stage of petalinux) or reconfigure dropbear as described here: https://forums.xilinx.com/t5/Embedded-Linux/dropbear-root-login-petalinux-2019-1/td-p/979852). However, in versions ~2020 and before, the flag used to disallow root login is broken, so if you enter the root password twice you can log in.
 
 
+
+---Ubuntu on PetaLinux---
+PetaLinux can be very limiting in that you must cross-compile any software for it (or set up a toolchain within petalinux to compile anything) and there are no pre-existing repositories for opkg (that I could find).
+
+However, it seems fairly easy to install Ubuntu on top of PetaLinux as shown in these links:
+(note: ubuntu 64 bit for ARMv8 used here)
+https://highlevel-synthesis.com/2019/12/15/running-ubuntu-on-ultra96v2-using-petalinux-2019-2-with-networking-and-linux-header/
+
+https://xilinx-wiki.atlassian.net/wiki/spaces/A/pages/18842231/Zynq-7000+AP+SoC+-+Installing+the+Ubuntu+Desktop+on+PetaLinux+and+Demo+Tech+Tip
+
+https://medium.com/developments-and-implementations-on-zynq-7000-ap/install-ubuntu-16-04-lts-on-zynq-zc702-using-petalinux-2016-4-e1da902eaff7
+
+
+The main difficulty for Ubuntu on EBAZ4205 seems to be that the last time a generic armhf rootfs was offered was for 16.04 (except for Raspberry Pi devices, perhaps that can be adapted?). Using Debian should also be possible as they seem to still be supporting armhf.
+
+ubuntu core 20 (has armhf for raspi): https://cdimage.ubuntu.com/ubuntu-core/20/stable/current/
+
+An ubuntu guide from 2011 on making a rootfs: https://wiki.ubuntu.com/ARM/RootfsFromScratch
+
+Japanese post that provides a prebuilt Ubuntu 18.04 for EBAZ4205 that can be (directly?) flashed to an SD card: https://github.com/bjrjk/EBAZ4205
+
+
+
+--Pynq on PetaLinux--
+
+Good posts here on Pynq for EBAZ4205:
+
+https://webuiltawallwebuiltthepyramids.blogspot.com/2021/01/yet-another-ebaz4205-writeup-3-pynq.html
+https://webuiltawallwebuiltthepyramids.blogspot.com/2021/03/yet-another-ebaz4205-writeup-4-pynq.html
+
+It seems like Pynq is a good option for someone who is fairly comfortable with 1) Some advanced field that benefits from FPGA acceleration, like AI with neural networks
+2) FPGA development, or has someone to do it for them
+
+It does not seem like it would be good for someone trying to learn HDL.
+
+Possibly it could be good for intermediate skill level HDL developers that want to directly test their designs on the FPGA with Python?
