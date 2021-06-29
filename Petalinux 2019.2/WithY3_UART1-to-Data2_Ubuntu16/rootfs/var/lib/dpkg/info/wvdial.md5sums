@@ -1,0 +1,14 @@
+1aa5dfa01c17f054f37e0a79bdb91087  usr/bin/poff.wvdial
+00e7d150f778eeb099fc50a6b97f7b55  usr/bin/pon.wvdial
+af33accef26500bbf5169a8b81f68756  usr/bin/wvdial
+9961f7a96c77c231707d4fd05c81ee85  usr/bin/wvdialconf
+edc69749c58559ae04d40be5875dc217  usr/share/doc/wvdial/FAQ
+9be698fbe4f5002075ce12d57a469113  usr/share/doc/wvdial/MENUS
+369c0f07e7027a02f773f8ebb4b4daf0  usr/share/doc/wvdial/README.gz
+303a552d7aaa416c96e03823cf85c73f  usr/share/doc/wvdial/TODO
+c0312c0b81d1d6b79f6b7f5b2c013726  usr/share/doc/wvdial/changelog.Debian.gz
+59b2ab1748dbf060dce521ee51188372  usr/share/doc/wvdial/copyright
+f49b0f1bddc87d38248434772cdf0191  usr/share/man/man1/pon.wvdial.1.gz
+33a8c62050b61ebbcc2b34891eecc586  usr/share/man/man1/wvdial.1.gz
+ee50499ce7c99a395981154b0ee249bb  usr/share/man/man1/wvdialconf.1.gz
+759a9034246d4a72d108af2345cd55fd  usr/share/man/man5/wvdial.conf.5.gz

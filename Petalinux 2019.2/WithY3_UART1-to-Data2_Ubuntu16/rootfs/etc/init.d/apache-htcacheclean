@@ -1,0 +1,64 @@
+#!/bin/sh
+# kFreeBSD do not accept scripts as interpreters, using #!/bin/sh and sourcing.
+if [ true != "$INIT_D_SCRIPT_SOURCED" ] ; then
+    set "$0" "$@"; INIT_D_SCRIPT_SOURCED=true . /lib/init/init-d-script
+fi
+### BEGIN INIT INFO
+# Provides:          apache-htcacheclean
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:
+# Default-Stop:      0 1 2 3 4 5 6
+# Short-Description: Cache cleaner process for Apache2 web server
+# Description:       Start the htcacheclean helper
+#  This script will start htcacheclean which will periodically scan the
+#  cache directory of Apache2's mod_cache_disk and remove outdated files.
+### END INIT INFO
+
+DESC="Apache htcacheclean"
+DAEMON=/usr/bin/htcacheclean
+
+NAME="${0##*/}"
+NAME="${NAME##[KS][0-9][0-9]}"
+DIR_SUFFIX="${NAME##apache-htcacheclean}"
+APACHE_CONFDIR="${APACHE_CONFDIR:=/etc/apache2$DIR_SUFFIX}"
+RUN_USER=$(. $APACHE_CONFDIR/envvars > /dev/null && echo "$APACHE_RUN_USER")
+
+# Default values. Edit /etc/default/apache-htcacheclean to change these
+HTCACHECLEAN_SIZE="${HTCACHECLEAN_SIZE:=300M}"
+HTCACHECLEAN_DAEMON_INTERVAL="${HTCACHECLEAN_DAEMON_INTERVAL:=120}"
+HTCACHECLEAN_PATH="${HTCACHECLEAN_PATH:=/var/cache/apache2$DIR_SUFFIX/mod_cache_disk}"
+HTCACHECLEAN_OPTIONS="${HTCACHECLEAN_OPTIONS:=-n}"
+
+PIDDIR="/var/run/apache2/$RUN_USER"
+PIDFILE="$PIDDIR/$NAME.pid"
+DAEMON_ARGS="$HTCACHECLEAN_OPTIONS \
+    -d$HTCACHECLEAN_DAEMON_INTERVAL \
+    -P$PIDFILE -i \
+    -p$HTCACHECLEAN_PATH \
+    -l$HTCACHECLEAN_SIZE"
+
+do_start_prepare () {
+	if [ ! -d "$PIDDIR" ] ; then
+		mkdir -p "$PIDDIR"
+		chown "$RUN_USER:" "$PIDDIR"
+	fi
+	if [ ! -d "$HTCACHECLEAN_PATH" ] ; then
+		echo "Directory $HTCACHECLEAN_PATH does not exist!" >&2
+		exit 2
+	fi
+}
+
+do_start_cmd_override () {
+	start-stop-daemon --start --quiet --pidfile ${PIDFILE} \
+	    -u $RUN_USER --startas $DAEMON --name htcacheclean --test > /dev/null \
+	    || return 1
+	start-stop-daemon --start --quiet --pidfile ${PIDFILE} \
+	    -c $RUN_USER --startas $DAEMON --name htcacheclean -- $DAEMON_ARGS \
+	    || return 2
+}
+
+do_stop_cmd_override () {
+	start-stop-daemon --stop --quiet --retry=TERM/30/KILL/5 \
+	    -u $RUN_USER --pidfile ${PIDFILE} --name htcacheclean
+}

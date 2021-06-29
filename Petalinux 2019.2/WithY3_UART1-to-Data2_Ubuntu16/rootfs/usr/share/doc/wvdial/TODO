@@ -1,0 +1,32 @@
+
+Volunteers welcome!  Contact us at: 
+
+http://groups.google.com/group/wvstreams-devel.
+
+
+WvDial
+------
+- 1ms-lag-mode for wvmodem
+- adjust the number of seconds before "hoping for the best" 
+	- sometimes the login prompt takes a long time to answer.
+- mention /etc/wvdial.conf, /dev/ttyS*, and pap-secrets file permissions
+- allow passing of options on the command line:  if it has an '=' sign,
+	assume it's a configuration setting. - DONE version 1.5 (01/2002)
+- find pppd in PATH, don't assume /usr/sbin/pppd
+- blank lines count as prompts (sometimes?)
+- create a pidfile in /var/run/wvdial.pid
+- split the debian postinst script out, so that non-debian users get the
+	convenient setup prompts
+- go to background automatically when starting pppd (watch out with the
+	lockfile!)
+- create config file 0600!!
+- if pppd dies "too quickly", suggest to the user that /var/log/ppp.log,
+	daemon.log, etc may contain the answers to the problem.
+- '@' is a prompt string :)  (MSN)
+- try simply "AT" (3 retries) after finding max baud rate, rather than going
+	directly to retry the full init string.
+
+WvDial - docs
+------
+- how to disable call waiting (insert *70, in the phone number)
+- split wvdial.1 man page into wvdial.1 and wvdial.conf.5

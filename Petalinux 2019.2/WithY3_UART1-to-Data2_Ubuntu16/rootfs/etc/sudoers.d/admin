@@ -1,0 +1,2 @@
+Defaults	env_keep += "NODE_PATH"
+%admin ALL=(ALL:ALL) ALL

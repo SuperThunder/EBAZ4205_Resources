@@ -1,0 +1,10 @@
+Editing `/etc/wvdial.conf'.
+
+Scanning your serial ports for a modem.
+
+
+
+Sorry, no modem was detected!  Is it in use by another program?
+Did you configure it properly with setserial?
+
+Please read the FAQ at http://alumnit.ca/wiki/?WvDial

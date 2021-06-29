@@ -1,0 +1,13 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installudev
+if [ "$1" = install ] || [ "$1" = upgrade ]; then
+	if [ -e "/etc/udev/rules.d/z60_i2c-tools.rules" ]; then
+		if [ "`md5sum \"/etc/udev/rules.d/z60_i2c-tools.rules\" | sed -e \"s/ .*//\"`" = \
+		     "`dpkg-query -W -f='${Conffiles}' i2c-tools | sed -n -e \"\\\\' /etc/udev/rules.d/z60_i2c-tools.rules '{s/ obsolete$//;s/.* //p}\"`" ]
+		then
+			rm -f "/etc/udev/rules.d/z60_i2c-tools.rules"
+		fi
+	fi
+fi
+# End automatically added section

@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libwvstreams4.6-extras
+/usr/share/doc
+/usr/share/doc/libwvstreams4.6-extras
+/usr/share/doc/libwvstreams4.6-extras/copyright
+/usr/lib
+/usr/lib/libwvstreams.so.4.6
+/usr/lib/libwvdbus.so.4.6
+/usr/lib/libwvutils.so.4.6
+/usr/share/doc/libwvstreams4.6-extras/changelog.Debian.gz

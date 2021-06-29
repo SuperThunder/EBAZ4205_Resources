@@ -1,0 +1,11 @@
+#!/bin/sh
+set -e
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/apache2 2.4.12-3~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apache2/mods-available/http2.load 2.4.18-2ubuntu3~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper mv_conffile /etc/default/apache2 /etc/default/apache-htcacheclean 2.4.18-2~ -- "$@"
+# End automatically added section

@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libapparmor1
+/usr/share/doc/libapparmor1/copyright
+/usr/share/doc/libapparmor1/changelog.Debian.gz
+/lib
+/lib/arm-linux-gnueabihf
+/lib/arm-linux-gnueabihf/libapparmor.so.1.4.0
+/lib/arm-linux-gnueabihf/libapparmor.so.1

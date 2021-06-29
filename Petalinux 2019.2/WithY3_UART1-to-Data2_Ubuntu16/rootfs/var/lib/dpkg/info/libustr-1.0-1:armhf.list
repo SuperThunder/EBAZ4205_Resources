@@ -1,0 +1,12 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libustr-1.0-1
+/usr/share/doc/libustr-1.0-1/copyright
+/usr/share/doc/libustr-1.0-1/README.Debian
+/usr/share/doc/libustr-1.0-1/changelog.Debian.gz
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libustr-1.0.so.1.0.4
+/usr/lib/arm-linux-gnueabihf/libustr-1.0.so.1

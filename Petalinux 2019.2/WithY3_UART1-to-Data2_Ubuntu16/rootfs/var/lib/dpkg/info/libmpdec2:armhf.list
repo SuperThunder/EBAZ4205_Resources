@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libmpdec2
+/usr/share/doc/libmpdec2/copyright
+/usr/share/doc/libmpdec2/changelog.Debian.gz
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libmpdec.so.2.4.2
+/usr/lib/arm-linux-gnueabihf/libmpdec.so.2

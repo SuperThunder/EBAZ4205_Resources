@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libbind9.so.140.0.10
+/usr/share
+/usr/share/doc
+/usr/share/doc/libbind9-140
+/usr/share/doc/libbind9-140/copyright
+/usr/lib/arm-linux-gnueabihf/libbind9.so.140
+/usr/share/doc/libbind9-140/changelog.Debian.gz

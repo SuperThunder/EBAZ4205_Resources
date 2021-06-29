@@ -1,0 +1,11 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libcares.so.2.1.0
+/usr/share
+/usr/share/doc
+/usr/share/doc/libc-ares2
+/usr/share/doc/libc-ares2/changelog.Debian.gz
+/usr/share/doc/libc-ares2/copyright
+/usr/lib/arm-linux-gnueabihf/libcares.so.2

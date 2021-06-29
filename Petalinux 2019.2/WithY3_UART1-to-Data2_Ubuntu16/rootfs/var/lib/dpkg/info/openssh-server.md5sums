@@ -1,0 +1,10 @@
+68290ff164d56d320575829a6f88a94a  lib/systemd/system/ssh.service
+3f25171928b9546beb6a67bf51694eb3  lib/systemd/system/ssh.socket
+0136a239bd90c48b8e07ea477e2c23e5  lib/systemd/system/ssh@.service
+cf0e01b86e50b03629c42b644d2b6bc3  usr/lib/tmpfiles.d/sshd.conf
+5178cbc2ef9542afc5bc2ff9a119f197  usr/sbin/sshd
+e4f66eb12e8650acbafbfb14a0325b26  usr/share/apport/package-hooks/openssh-server.py
+7e6e40b2bf0f3b5cf81c140fd74f5bd5  usr/share/doc/openssh-client/examples/sshd_config
+8c5592e0d522fa0f8f55f3c104479ef5  usr/share/lintian/overrides/openssh-server
+4a87753b4e7bb7ed781494854f076389  usr/share/man/man5/sshd_config.5.gz
+69bea8cf3b0e4e3d231cee175912ba68  usr/share/man/man8/sshd.8.gz

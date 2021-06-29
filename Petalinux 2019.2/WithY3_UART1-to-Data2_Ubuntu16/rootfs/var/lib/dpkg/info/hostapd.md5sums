@@ -1,0 +1,15 @@
+809df9bef57cd08a91477801cf97ff75  usr/sbin/hostapd
+17d57f15162e7b81244714476be16d77  usr/sbin/hostapd_cli
+0f157035fbf3934c1207c3c6d4b3ba7c  usr/share/doc/hostapd/NEWS.Debian.gz
+c58c2311d2fdd2fa3dac17e324173154  usr/share/doc/hostapd/README.Debian
+0a492bc473b0757a42aa5b462a88b6f2  usr/share/doc/hostapd/changelog.Debian.gz
+9b5a8ee235f9f2e0ddf26e0f78c732d3  usr/share/doc/hostapd/copyright
+d26c8e028ec4bb62b913ec45699252a7  usr/share/doc/hostapd/examples/hostapd.accept
+b2008a5f224645f6d0c9bcd612ca7fcd  usr/share/doc/hostapd/examples/hostapd.conf.gz
+81976bea013a04fbaa0453fa54ed3f3a  usr/share/doc/hostapd/examples/hostapd.deny
+6d035aa4d70de5e70292e3bd1ea2995d  usr/share/doc/hostapd/examples/hostapd.eap_user.gz
+13451297c5b591287bdd0217970a2900  usr/share/doc/hostapd/examples/hostapd.radius_clients
+d79884e3d8bcaadaeed430485068af48  usr/share/doc/hostapd/examples/hostapd.wpa_psk
+48a00f0e72cf427c325d9eed8a617384  usr/share/lintian/overrides/hostapd
+d7bb4cd83b23f5e8048a2ef7b6cbbc50  usr/share/man/man1/hostapd_cli.1.gz
+a68e42b3ba228d1c1299220b1edcf8e7  usr/share/man/man8/hostapd.8.gz

@@ -1,0 +1,7 @@
+26ae83aa241073cc517c6c71966d712e  usr/sbin/memtester
+6abbf54a91f0712d527d561683bc4512  usr/share/doc/memtester/BUGS
+bbf61d9c94f6deb6c983bdac78360c70  usr/share/doc/memtester/README.gz
+fe8db7c5f54b6d0f2ed06d86100a6c82  usr/share/doc/memtester/README.tests
+6653d834d8c962fd2acfec24cace0e51  usr/share/doc/memtester/changelog.Debian.gz
+d6b9ba9d63c96f40cebb6649d523a859  usr/share/doc/memtester/copyright
+eae5c21df35a663464e8c279b6ffe316  usr/share/man/man8/memtester.8.gz

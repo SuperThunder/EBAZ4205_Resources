@@ -1,0 +1,32 @@
+This package was debianized by Robert Woodcock rcw@oz.net on
+Mon, 20 Jul 1998 19:28:16 -0700.
+
+Robert Woodcock has also maintained this package until Fri, 25 Feb 2005.
+The current maintainer is Florian Ernst <florian@debian.org>.
+
+The original sources can be obtained at:
+http://www.chez.com/prigaux/hexedit.html
+
+
+Author: Pixel (Pascal Rigaux) <pixel@merd.net>
+
+Copyright (C) 1998 Pixel (Pascal Rigaux)
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2, or (at your option)
+   any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program; if not, write to the
+   Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston,
+   MA 02110-1301, USA.
+
+
+On Debian systems, the complete text of the GNU General Public
+License, version 2, can be found in /usr/share/common-licenses/GPL-2.

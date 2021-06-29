@@ -1,0 +1,12 @@
+5d3b7a197eee0d676ea616d4ecfea108  lib/systemd/system/connman.service
+fa86d7711cf4d37197cf7999afd71b6f  usr/sbin/connmanctl
+05ad05adf85a5b829d3e42f5b24596cc  usr/sbin/connmand
+f7664d9bbf4d96ce764e4208c185cae2  usr/share/apport/package-hooks/source_connman.py
+01e6b452b82059f26fc62cd4b527006f  usr/share/doc/connman/README.Debian
+0c048de603f12e9063cf81a95ddc1810  usr/share/doc/connman/changelog.Debian.gz
+fe8f50b587af9db633be465f245fdb03  usr/share/doc/connman/copyright
+936200735f1b7db394696326d5ec9b13  usr/share/man/man1/connmanctl.1.gz
+f2d7d696b2b3b65f94af26797063658f  usr/share/man/man5/connman.conf.5.gz
+7ad1932872346e6a736cafaedb2c671a  usr/share/man/man8/connman.8.gz
+b2a18a7d22cf6d48ab1180335865928b  usr/share/man/man8/connmand.8.gz
+e6eca472ce4711dc741acd4fa01cbe57  usr/share/polkit-1/actions/net.connman.policy

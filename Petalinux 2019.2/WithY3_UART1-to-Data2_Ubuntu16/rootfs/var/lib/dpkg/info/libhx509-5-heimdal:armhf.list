@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libhx509-5-heimdal
+/usr/share/doc/libhx509-5-heimdal/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libhx509-5-heimdal
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libhx509.so.5.0.0
+/usr/share/doc/libhx509-5-heimdal/changelog.Debian.gz
+/usr/lib/arm-linux-gnueabihf/libhx509.so.5

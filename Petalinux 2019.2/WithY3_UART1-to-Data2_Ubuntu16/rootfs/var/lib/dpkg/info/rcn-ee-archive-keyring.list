@@ -1,0 +1,16 @@
+/.
+/etc
+/etc/apt
+/etc/apt/trusted.gpg.d
+/usr
+/usr/share
+/usr/share/keyrings
+/usr/share/rcn-ee-archive-keyring
+/usr/share/rcn-ee-archive-keyring/rcn-ee-archive-2015.gpg
+/usr/share/rcn-ee-archive-keyring/A4C46402.asc
+/usr/share/doc
+/usr/share/doc/rcn-ee-archive-keyring
+/usr/share/doc/rcn-ee-archive-keyring/copyright
+/usr/share/doc/rcn-ee-archive-keyring/changelog.gz
+/etc/apt/trusted.gpg.d/rcn-ee-archive-2015.gpg
+/usr/share/keyrings/rcn-ee-archive-2015.gpg

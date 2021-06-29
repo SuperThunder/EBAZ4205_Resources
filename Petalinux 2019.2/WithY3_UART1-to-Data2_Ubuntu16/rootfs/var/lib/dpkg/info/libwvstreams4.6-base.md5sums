@@ -1,0 +1,5 @@
+a3c21b969003d37b13fe2d70633b8f8c  usr/lib/libwvbase.so.4.6
+7f89b3a74a57919ff874dbeff742259a  usr/share/doc/libwvstreams4.6-base/README
+53c0eb00988a650a3f84e3c6158deacb  usr/share/doc/libwvstreams4.6-base/changelog.Debian.gz
+0368188f00ae09eb1e1e4a709ae3a109  usr/share/doc/libwvstreams4.6-base/copyright
+fe0478edebc8e70e6feacf6cc59e1299  usr/share/lintian/overrides/libwvstreams4.6-base

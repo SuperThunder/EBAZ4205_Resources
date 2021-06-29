@@ -1,0 +1,2 @@
+SUBSYSTEM=="cmem", GROUP="tisdk", MODE="0660"
+SUBSYSTEM=="rpmsg_rpc", GROUP="tisdk", MODE="0660"

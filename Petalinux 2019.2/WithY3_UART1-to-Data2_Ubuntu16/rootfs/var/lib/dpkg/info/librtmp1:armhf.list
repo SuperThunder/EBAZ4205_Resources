@@ -1,0 +1,10 @@
+/.
+/usr
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/librtmp.so.1
+/usr/share
+/usr/share/doc
+/usr/share/doc/librtmp1
+/usr/share/doc/librtmp1/copyright
+/usr/share/doc/librtmp1/changelog.Debian.gz

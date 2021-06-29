@@ -1,0 +1,9 @@
+84b2443e2e30267590a3df3f7c2a0179  lib/systemd/system/ofono.service
+aa2e183a11ab7c7a2606a8330fd77eef  lib/udev/rules.d/97-ofono-speedup.rules
+23dea8a2c71d2caf1cd6d1c522fb0030  lib/udev/rules.d/97-ofono.rules
+ac311a037c753958ab9fe5e463805f3f  usr/sbin/ofonod
+76a264db0826eab77833d0965f16b20b  usr/share/doc/ofono/AUTHORS.gz
+d6ac27d0c60290215ca3660d5ead2d1a  usr/share/doc/ofono/changelog.Debian.gz
+26459c8b89386cf25efd76d113e2aa2b  usr/share/doc/ofono/copyright
+801a70deff3eb4d24551e9093adf82ed  usr/share/lintian/overrides/ofono
+3651201cdeee940f2ca4bf3fdbc06ed4  usr/share/man/man8/ofonod.8.gz

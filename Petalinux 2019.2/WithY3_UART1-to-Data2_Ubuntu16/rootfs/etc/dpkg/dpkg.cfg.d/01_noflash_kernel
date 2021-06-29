@@ -1,0 +1,6 @@
+# neuter flash-kernel
+path-exclude=/usr/share/flash-kernel/db/all.db
+path-exclude=/etc/initramfs/post-update.d/flash-kernel
+path-exclude=/etc/kernel/postinst.d/zz-flash-kernel
+path-exclude=/etc/kernel/postrm.d/zz-flash-kernel
+

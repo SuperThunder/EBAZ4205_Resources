@@ -1,0 +1,4 @@
+?package(hexedit):command="/usr/bin/hexedit" \
+	needs="text" \
+	section="Applications/Editors" \
+	title="hexedit"

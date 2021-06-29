@@ -1,0 +1,22 @@
+# This file must only contain KEY=VALUE lines. Do not use advanced
+# shell script constructs!
+
+## run mode: cron, daemon
+## run in daemon mode or as daily cron job
+## default: daemon
+HTCACHECLEAN_MODE=daemon
+
+## cache size
+HTCACHECLEAN_SIZE=300M
+
+## interval: if in daemon mode, clean cache every x minutes
+HTCACHECLEAN_DAEMON_INTERVAL=120
+
+## path to cache
+## must be the same as in CacheRoot directive
+#HTCACHECLEAN_PATH=/var/cache/apache2/mod_cache_disk
+
+## additional options:
+## -n : be nice
+## -t : remove empty directories
+HTCACHECLEAN_OPTIONS="-n"

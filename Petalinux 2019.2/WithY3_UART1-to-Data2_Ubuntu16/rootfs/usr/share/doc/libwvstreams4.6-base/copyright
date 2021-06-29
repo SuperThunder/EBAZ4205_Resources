@@ -1,0 +1,54 @@
+This package was debianized by Patrick Patterson <ppatters@nit.ca> on
+Mon, 18 Feb 2002 19:49:14 -0500.
+
+It was downloaded from http://alumnit.ca/
+
+Upstream Author: Net Integration Technologies Inc. and other contributors.
+
+Copyright: 
+	Copyright (C) 1997-2007, Net Integration Technologies Inc.
+	Copyright (C) 1999 Red Hat, Inc.
+	Copyright (C) 2000-2003, Pierre Phaneuf
+	Copyright (C) 2002, St�phane Lajoie
+	Copyright (C) 2007, Carillon Information Security Inc.
+	Copyright (C) 1998-2007 by Avery Pennarun <apenwarr@alumnit.ca>
+	Copyright (C) 2007-2009 Versabanq Innovations Inc.
+
+linuxsreams/if_tun.h
+	Copyright (C) 1999-2000 Maxim Krasnyansky <max_mk@yahoo.com>
+
+argp/*:
+	Copyright (C) 1992-2004 Free Software Foundation, Inc.
+
+License:
+
+WvStreams is released under the terms of the GNU Lesser General Public License
+(LGPL) which can be found on Debian systems in the following file:
+
+	/usr/share/common-licenses/LGPL-2.1
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License for more
+details.
+
+linuxstreams/if_tun.h
+
+/*
+ *  Universal TUN/TAP device driver.
+ *  Copyright (C) 1999-2000 Maxim Krasnyansky <max_mk@yahoo.com>
+ *
+ *  This program is free software; you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation; either version 2 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ *  GNU General Public License for more details.
+ *
+ */
+
+On Debian systems, a copy of the GPL license can be found in 
+/usr/share/common-licenses/GPL-2

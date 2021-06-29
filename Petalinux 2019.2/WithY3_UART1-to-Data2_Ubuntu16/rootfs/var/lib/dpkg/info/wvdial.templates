@@ -1,0 +1,261 @@
+
+Template: wvdial/wvdialconf
+Type: boolean
+Default: true
+Description: Automatically detect and configure the modem?
+ WvDial can automatically detect the modem and create its configuration
+ file. This detection may cause problems with some computers.
+ .
+ You may reconfigure WvDial by running a program called wvdialconf which
+ will write these settings into the /etc/wvdial.conf file.
+Description-cs.UTF-8: Automaticky rozpoznat a nastavit modem?
+ WvDial umí automaticky rozpoznat modem a podle něj vytvořit svůj konfigurační soubor. Rozpoznávání však může na některých počítačích způsobit problémy.
+ .
+ WvDial můžete přenastavit programem wvdialconf, který zapíše nastavení do souboru /etc/wvdial.conf.
+Description-da.UTF-8: Find og konfigurer automatisk modemmet?
+ WvDial kan automatisk detektere modemmet og oprette dens konfigurationsfil. Denne detektering kan medføre problemer med nogle computere.
+ .
+ Du kan rekonfigurere WvDial ved at køre programmet wvdialconf, som vil skrive disse indstillinger ind i filen /etc/wvdial.conf.
+Description-de.UTF-8: Das Modem automatisch erkennen und einrichten?
+ WvDial kann das Modem automatisch erkennen und eine entsprechende Konfigurationsdatei erzeugen. Diese Erkennung kann auf einigen Rechnern Probleme verursachen.
+ .
+ Sie können WvDial mit dem Programm wvdialconf erneut einrichten. Die Einstellungen werden in der Datei /etc/wvdial.conf gespeichert.
+Description-es.UTF-8: ¿Desea que se detecte y configure automáticamente su módem?
+ WvDial puede detectar automáticamente su módem y crear su archivo de configuración. Esta detección podría causar problemas en algunos equipos.
+ .
+ Puede reconfigurar WvDial ejecutando un programa llamado «wvdialconf» que escribirá la configuración en el archivo «/etc/wvdial.conf».
+Description-fr.UTF-8: Faut-il détecter et configurer automatiquement le modem ?
+ WvDial peut détecter automatiquement le modem et créer le fichier de configuration correspondant. Cette détection peut être source de difficultés avec certains ordinateurs.
+ .
+ Vous pouvez reconfigurer WvDial en lançant le programme wvdialconf qui écrira les nouveaux paramètres dans le fichier de configuration /etc/wvdial.conf.
+Description-it.UTF-8: Riconoscimento e configurazione automatica del modem
+ WvDial può automaticamente riconoscere il modem e creare un file di configurazione adatto. Purtroppo il riconoscimento automatico su alcuni computer può creare dei problemi.
+ .
+ È possibile riconfigurare WvDial usando il programma wvdialconf che modifica le impostazioni nel file /etc/wvdial.conf.
+Description-ja.UTF-8: モデムを自動的に認識、設定しますか?
+ WvDial はモデムを自動的に認識して設定ファイルを生成できます。この設定はいくつかのコンピュータで問題を起こすことがあります。
+ .
+ 設定を /etc/wvdial.conf ファイルに書き込む wvdialconf と呼ばれるプログラムを実行すれば WvDial を再設定できます。
+Description-nb.UTF-8: Skal modemet finnes og settes opp automatisk?
+ WvDial kan finne modemet automatisk og opprette en oppsettsfil for det.   Slik søking kan gi problemer med noen datamaskiner.
+ .
+ Du kan sette opp WvDial på nytt ved å kjøre et program som heter wvdialconf, som skriver disse innstillingene i fila /etc/wvdial.conf.
+Description-nl.UTF-8: Wilt u de modem automatisch laten detecteren en configureren?
+ WvDial kan de modem automatisch detecteren en er vervolgens een configuratiebestand voor aanmaken. Op sommige computers kan deze detectie problemen veroorzaken.
+ .
+ U kunt WvDial altijd opnieuw instellen via het programma wvdialconf. Dit programma schrijft de instellingen weg in het bestand /etc/wvdial.conf .
+Description-no.UTF-8: Skal modemet finnes og settes opp automatisk?
+ WvDial kan finne modemet automatisk og opprette en oppsettsfil for det.   Slik søking kan gi problemer med noen datamaskiner.
+ .
+ Du kan sette opp WvDial på nytt ved å kjøre et program som heter wvdialconf, som skriver disse innstillingene i fila /etc/wvdial.conf.
+Description-pl.UTF-8: Wykryć i skonfigurować modem automatycznie?
+ WvDial może automatycznie wykryć modem i utworzyć jego plik konfiguracyjny. W niektórych przypadkach, automatycznie wykrywanie może spowodować problemy.
+ .
+ Można skonfigurować WvDial ponownie, uruchamiając program wvdialconf, który zapisze te ustawienia do pliku /etc/wvdial.conf.
+Description-pt.UTF-8: Detectar e configurar automaticamente o modem?
+ O WvDial pode detectar automaticamente o modem e criar o seu ficheiro de configuração. Esta detecção pode causar problemas com alguns computadores.
+ .
+ Pode reconfigurar o WvDial correndo um programa chamado wvdialconf que irá escrever estas opções para o ficheiro /etc/wvdial.conf.
+Description-pt_BR.UTF-8: Detectar e configurar o modem automaticamente?
+ O WvDial pode detectar o modem automaticamente e criar seu arquivo de configuração. Esta detecção pode causar problemas em alguns computadores.
+ .
+ Você pode reconfigurar o WvDial executando um programa chamado wvdialconf que escreverá estas configurações no arquivo /etc/wvdial.conf.
+Description-ru.UTF-8: Найти и настроить модем автоматически?
+ WvDial может автоматически найти модем и создать файл настройки. При поиске модема на некоторых компьютерах иногда возникают проблемы.
+ .
+ Вы можете изменить конфигурацию WvDial с помощью программы wvdialconf, которая сохранит настройки в файле /etc/wvdial.conf.
+Description-sv.UTF-8: Automatiskt identifiera och konfigurera ditt modem?
+ WvDial kan automatiskt identifiera ditt modem och skapa dess konfigurationsfil. Denna identifiering kan orsaka problem med vissa datorer.
+ .
+ Du kan konfigurera om WvDial genom att köra ett program som kallas wvdialconf som kommer att skriva dessa inställningar i filen /etc/wvdial.conf.
+Description-zh_CN.UTF-8: 自动检测并配置调制解调器？
+ WvDial 能自动检测您的调制解调器并为其创建配置文件。但此探测功能在某些计算机上可能不能正常工作。
+ .
+ 您应使用 wvdialconf 程序重新配置 WvDial 并将其写入 /etc/wvdial.conf 文件。
+
+Template: wvdial/phone
+Type: string
+Description: ISP's telephone number:
+ Please enter the telephone number that should be used to connect to the
+ Internet Service Provider (ISP).
+Description-cs.UTF-8: Telefonní číslo poskytovatele Internetu:
+ Zadejte prosím telefonní číslo, které se má použít pro připojení k poskytovateli Internetu (ISP).
+Description-da.UTF-8: ISP's telefonnummer:
+ Indtast venligst telefonnummeret som skal bruges til at forbinde til Internetudbyderen (ISP).
+Description-de.UTF-8: Telefonnummer des Internet-Anbieters:
+ Bitte geben Sie die Telefonnummer ein, die für die Verbindung zu Ihrem Internet-Anbieter verwendet werden soll.
+Description-es.UTF-8: Número de teléfono del proveedor de servicios de Internet:
+ Por favor, proporcione el número de teléfono que le ha proporcionado su proveedor de servicios de Internet (ISP).
+Description-fr.UTF-8: Numéro de téléphone du FAI :
+ Veuillez saisir le numéro de téléphone à utiliser pour se connecter au fournisseur d'accès à internet (FAI).
+Description-it.UTF-8: Numero telefonico dell'ISP:
+ Inserire il numero telefonico da usare per la connessione al proprio ISP (Internet Service Provider).
+Description-ja.UTF-8: ISP の電話番号
+ インターネットプロバイダ (ISP) に接続するのに使う電話番号を入力してください。
+Description-nb.UTF-8: Telefonnummer til Internett-leverandøren:
+ Oppgi det telefonnummeret som skal brukes til å koble til din Internett-leverandør (ISP).
+Description-nl.UTF-8: Inbelnummer van de internetprovider:
+ Geef het inbelnummer op dat moet worden gebruikt om verbinding te maken met de internetprovider.
+Description-no.UTF-8: Telefonnummer til Internett-leverandøren:
+ Oppgi det telefonnummeret som skal brukes til å koble til din Internett-leverandør (ISP).
+Description-pl.UTF-8: Numer telefonu ISP:
+ Proszę wybrać numer telefonu używany do połączenia z dostawcą usługi internetowej (ang. Internet Service Provider - ISP).
+Description-pt.UTF-8: Número de telefone do ISP:
+ Por favor introduza o número de telefone que deve ser utilizado para ligar ao provedor de internet (ISP).
+Description-pt_BR.UTF-8: Número telefônico do ISP:
+ Por favor, informe o número telefônico que deve ser usado para conectar ao provedor de acesso à Internet (ISP).
+Description-ru.UTF-8: Телефонный номер провайдера Интернета:
+ Введите телефонный номер, который нужно использовать для подключения к провайдеру Интернета (ISP).
+Description-sv.UTF-8: Telefonnummer till Internet-leverantören:
+ Ange telefonnummer som ska användas för att ansluta till din Internet-leverantör (ISP).
+Description-zh_CN.UTF-8: 互联网服务商的电话号码：
+ 请输入用于连接到互联网服务商的电话号码：
+
+Template: wvdial/login
+Type: string
+Description: Account username:
+ Please enter the username or login for an account issued by the ISP.
+Description-cs.UTF-8: Uživatelské jméno účtu:
+ Zadejte prosím uživatelské jméno k účtu, kterým se hlásíte ke svému poskytovateli.
+Description-da.UTF-8: Brugernavn for konto:
+ Indtast venligst brugernavnet eller logind for en konto udstedt af internetudbyderen.
+Description-de.UTF-8: Benutzerkonto:
+ Bitte geben Sie den Benutzernamen oder die Benutzerkennung (Login) für den Zugang bei Ihrem Internet-Anbieter ein.
+Description-es.UTF-8: Nombre de usuario de la cuenta:
+ Introduzca el nombre de usuario o «login» para una cuenta que le haya dado su ISP.
+Description-fr.UTF-8: Identifiant du compte :
+ Veuillez saisir l'identifiant utilisateur (ou « login ») du compte attribué par le FAI.
+Description-it.UTF-8: Nome utente:
+ Inserire il nome utente o la login del proprio account rilasciato dall'ISP.
+Description-ja.UTF-8: アカウントユーザ名:
+ ISP から提供された、ユーザ名あるいはログイン用アカウントを入力してください。
+Description-nb.UTF-8: Brukernavn for kontoen:
+ Skriv inn brukernavn eller login-navn for din konto hos ISP-en.
+Description-nl.UTF-8: Gebruikersnaam van account:
+ Geef de gebruikersnaam op voor van de account die u heeft gekregen van de internetprovider.
+Description-no.UTF-8: Brukernavn for kontoen:
+ Skriv inn brukernavn eller login-navn for din konto hos ISP-en.
+Description-pl.UTF-8: Nazwa użytkownika dla konta:
+ Proszę wprowadzić nazwę użytkownika lub login do konta udostępnionego przez dostawcę.
+Description-pt.UTF-8: Nome de utilizador da conta:
+ Por favor introduza o nome de utilizador ou login de um conta do ISP.
+Description-pt_BR.UTF-8: Nome de usuário da conta:
+ Por favor, informe o nome de usuário ou login para uma conta fornecida pelo ISP.
+Description-ru.UTF-8: Имя пользователя для учётной записи:
+ Укажите имя пользователя или логин вашей учётной записи, который выдал вам ISP.
+Description-sv.UTF-8: Aanvändarnamn för konto:
+ Ange användarnamnet eller inloggningsnamnet för ditt konto hos din ISP.
+Description-zh_CN.UTF-8: 账户名称：
+ 请输入您的互联网服务商提供给您的用户名。
+
+Template: wvdial/passphrase
+Type: password
+Description: Account passphrase:
+ Please enter the password or passphrase that corresponds with the account
+ username.
+Description-cs.UTF-8: Heslo nebo fráze:
+ Zadejte prosím heslo nebo celou frázi, jež používáte pro přístup ke svému poskytovateli.
+Description-da.UTF-8: Adgangsfrase for konto:
+ Indtast venligst adgangskoden eller adgangsfrasen som passer til kontoens brugernavn.
+Description-de.UTF-8: Passphrase für das Konto:
+ Bitte geben Sie das Passwort oder die Passphrase für die Freischaltung Ihres Zugangs ein.
+Description-es.UTF-8: Contraseña de la cuenta:
+ Introduzca la clave o contraseña que corresponde con su cuenta de usuario.
+Description-fr.UTF-8: Mot de passe du compte :
+ Veuillez saisir le mot de passe ou la phrase secrète qui correspond à l'identifiant du compte.
+Description-it.UTF-8: Passphrase:
+ Inserire la password o la passphrase che corrisponde al proprio account.
+Description-ja.UTF-8: アカウントのパスフレーズ:
+ アカウントのユーザ名に対応するパスワードあるいはパスフレーズを入力してください。
+Description-nb.UTF-8: Pass-setning for kontoen:
+ Skriv inn passordet eller pass-setningen som gir tilgang til kontoen din.
+Description-nl.UTF-8: Wachtwoord van account:
+ Geeft het wachtwoord op dat hoort bij gebruikersnaam van de account.
+Description-no.UTF-8: Pass-setning for kontoen:
+ Skriv inn passordet eller pass-setningen som gir tilgang til kontoen din.
+Description-pl.UTF-8: Hasło konta:
+ Proszę wprowadzić hasło, odpowiadające podanej nazwie użytkownika.
+Description-pt.UTF-8: Frase-passe da conta:
+ Por favor introduza a palavra-passe ou frase-passe que corrresponde ao nome de utilizador da conta.
+Description-pt_BR.UTF-8: Frase secreta da conta:
+ Por favor, informe a senha ou frase secreta que corresponde ao nome do usuário da conta.
+Description-ru.UTF-8: Пароль к учётной записи:
+ Введите пароль или ключевую фразу к вашей учётной записи.
+Description-sv.UTF-8: Lösenfras för konto:
+ Ange lösenordet eller lösenfrasen för kontonamnet.
+Description-zh_CN.UTF-8: 密码：
+ 请输入您的上网帐号的密码。
+
+Template: wvdial/passphrase2
+Type: password
+Description: Confirm passphrase:
+ Please enter the password or passphrase again for verification.
+Description-cs.UTF-8: Potvrzení hesla nebo fráze:
+ Pro potvrzení prosím zadejte heslo nebo frázi ještě jednou.
+Description-da.UTF-8: Bekræft adgangsfrase:
+ Indtast venligst adgangskoden eller adgangsfrasen igen for verificering.
+Description-de.UTF-8: Passphrase bestätigen:
+ Geben Sie zur Überprüfung das Passwort oder die Passphrase erneut ein.
+Description-es.UTF-8: Confirme la contraseña:
+ Vuelva a escribir la clave o contraseña para verificarla.
+Description-fr.UTF-8: Confirmation du mot de passe :
+ Veuillez saisir à nouveau le mot de passe ou la phrase secrète pour vérification.
+Description-it.UTF-8: Passphrase (conferma):
+ Inserire nuovamente la password o la passphrase.
+Description-ja.UTF-8: パスフレーズの確認:
+ 確認のため、パスワードあるいはパスフレーズを入力してください。
+Description-nb.UTF-8: Bekreft pass-setning:
+ Skriv inn passordet eller pass-setningen igjen for verifisering.
+Description-nl.UTF-8: Bevestig wachtwoord:
+ Geef ter controle het wachtwoord nogmaals op.
+Description-no.UTF-8: Bekreft pass-setning:
+ Skriv inn passordet eller pass-setningen igjen for verifisering.
+Description-pl.UTF-8: Potwierdzenie hasła:
+ W celu weryfikacji, proszę wprowadzić hasło ponownie.
+Description-pt.UTF-8: Confirme a frase-passe:
+ Por favor introduza a palavra-passe ou frase-passe novamente para verificação.
+Description-pt_BR.UTF-8: Confirme a frase secreta:
+ Por favor, informe a senha ou frase secreta novamente para verificação.
+Description-ru.UTF-8: Пароль ещё раз:
+ Введите пароль или ключевую фразу для проверки ещё раз.
+Description-sv.UTF-8: Upprepa lösenfras:
+ Ange lösenordet eller lösenfrasen igen för verifiering.
+Description-zh_CN.UTF-8: 确认密码：
+ 再输一次密码以便校验正确性。
+
+Template: wvdial/passphrases_mismatch
+Type: error
+Description: Passphrase mismatch
+ The passphrase and its confirmation do not match.
+Description-cs.UTF-8: Hesla nesouhlasí
+ Zadaná hesla nebo fráze nesouhlasí.
+Description-da.UTF-8: Adgangsfraser er ikke ens
+ Adgangsfrasen og dens bekræftelsen er ikke ens.
+Description-de.UTF-8: Passphrasen unterschiedlich
+ Die Passphrase und ihre Wiederholung stimmen nicht überein.
+Description-es.UTF-8: Las claves no coinciden
+ No coincide la contraseña con la introducida para su confirmación.
+Description-fr.UTF-8: Les mots de passe sont différents
+ Le mot de passe et sa confirmation doivent être identiques.
+Description-it.UTF-8: La passphrase non coincide
+ La passphrase e la sua conferma non coincidono.
+Description-ja.UTF-8: パスフレーズが一致しません
+ パスフレーズと確認の入力が一致しません。
+Description-nb.UTF-8: Pass-setningene må være like
+ Pass-setningen og bekreftelsen stemmer ikke overens.
+Description-nl.UTF-8: De wachtwoorden komen niet overeen
+ De wachtwoord en het controlewachtwoord zijn verschillend.
+Description-no.UTF-8: Pass-setningene må være like
+ Pass-setningen og bekreftelsen stemmer ikke overens.
+Description-pl.UTF-8: Hasła nie pasują
+ Wprowadzone hasła nie są ze sobą zgodne.
+Description-pt.UTF-8: As frase-chave não coincidem
+ A frase-passe e a sua confirmação não coincidem.
+Description-pt_BR.UTF-8: Frases secretas não conferem
+ A frase secreta e a sua confirmação não conferem.
+Description-ru.UTF-8: Пароли не совпадают
+ Два введённых пароля не совпадают.
+Description-sv.UTF-8: Lösenorden stämmer inte överrens
+ Lösenfrasen och den för verifikation upprepade lösenfrasen stämmer inte överrens.
+Description-zh_CN.UTF-8: 两次输入的密码不相同
+ 两次输入的密码不相同。

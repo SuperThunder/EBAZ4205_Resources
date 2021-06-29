@@ -1,0 +1,11 @@
+6e0f32c21ed0735acf36243b8a558aed  usr/bin/izchat
+845084acd4e1abfb1b67afe24e759ab3  usr/sbin/iz
+18c71a6c69c4e901451daaa6105c318c  usr/sbin/izattach
+2a726298e9b7b26d6d6364d0376f8f36  usr/sbin/izcoordinator
+a78e311f222d8794163931517e68d477  usr/share/doc/lowpan-tools/README
+520be70b81c646dde5ec1db92994a05e  usr/share/doc/lowpan-tools/changelog.Debian.gz
+162e6a1d7b3eed4bffe774e2335541fa  usr/share/doc/lowpan-tools/copyright
+cb714cdf0bb7d3b97bee30c740146731  usr/share/man/man1/izchat.1.gz
+576632ba54cc3c5cac9e2c2eea5acc0d  usr/share/man/man8/iz.8.gz
+e855f7f9b82b7fe804cab56b51d6b89a  usr/share/man/man8/izattach.8.gz
+41177c96cd41c3ac97833df26ee6b4a1  usr/share/man/man8/izcoordinator.8.gz

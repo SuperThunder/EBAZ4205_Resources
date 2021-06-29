@@ -1,0 +1,109 @@
+
+CONNECT 115200/PPP 64000/NONE
+
+
+
+   Bethel College Terminal Server
+ Please select one of the following:
+ 1) Log in to menno  
+ 2) Start PPP session
+ 3) Hangup and exit
+ Enter Number: 
+
+
+
+Press ( 1 ) for PPP
+
+
+Press 3 ) for PPP
+
+
+4 ) for PPP
+
+
+Yonko   5 )  for PPP
+
+
+
+Yonko   6)  for PPP
+
+ 
+ 
+Press 7 for PPP, 2 for chickens, or 3
+
+
+
+8, for PPP; 2, for something else.
+
+
+
+(Don't answer me)
+
+
+
+I like food (but ignore this ppp)
+
+
+
+
+
+
+
+Choice>
+
+
+(9) is a PPP option but (2) is not.
+
+
+(2) is not, but (10) is a PPP option
+
+
+Enter hostname (e.g. shell3.ba) with no password, or your SLIP/PPP login:
+
+
+options are: P FOR PPP, R FOR SHELL
+
+
+ENTER USERID ACCOUNT.
+===> [11]		(that's CTRL-Q)
+
+
+
+La Groupe Videotron Ltee., Services PC
+    1	PPP
+    9	<Quitter>
+
+
+
+         T h e   U S I T   M a i n   M e n u
+
+    1. Start a Dialup Session              4. Start a Ppp Session
+    2. Resume a Dialup Session             5. Start a CSlip Session
+    3. Start a Slip Session
+Your Choice ?
+
+
+
+For dialup-IP, type "PPP" or "SLIP" now.
+If you can't log in type "trouble".
+Which service, please?
+
+
+
+
+Doesn't work:
+------------
+
+
+prompts that are followed immediately by CRLF, then wait on a blank
+	line.
+
+
+Enter your username or type 'new' if new user:
+
+Login ID: 		(mitel-kanata)
+
+
+
+ENTER USERID ACCOUNT.
+===> [11]

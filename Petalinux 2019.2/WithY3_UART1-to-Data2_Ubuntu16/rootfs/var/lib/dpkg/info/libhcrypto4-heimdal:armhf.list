@@ -1,0 +1,14 @@
+/.
+/usr
+/usr/share
+/usr/share/doc
+/usr/share/doc/libhcrypto4-heimdal
+/usr/share/doc/libhcrypto4-heimdal/copyright
+/usr/share/lintian
+/usr/share/lintian/overrides
+/usr/share/lintian/overrides/libhcrypto4-heimdal
+/usr/lib
+/usr/lib/arm-linux-gnueabihf
+/usr/lib/arm-linux-gnueabihf/libhcrypto.so.4.1.0
+/usr/share/doc/libhcrypto4-heimdal/changelog.Debian.gz
+/usr/lib/arm-linux-gnueabihf/libhcrypto.so.4

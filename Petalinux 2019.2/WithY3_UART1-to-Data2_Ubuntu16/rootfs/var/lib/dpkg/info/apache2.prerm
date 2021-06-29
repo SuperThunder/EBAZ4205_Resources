@@ -1,0 +1,22 @@
+#!/bin/sh
+set -e
+
+if [ -x "/etc/init.d/apache-htcacheclean" ] && [ "$1" = remove ] ; then
+	invoke-rc.d apache-htcacheclean stop || true
+fi
+
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper mv_conffile /etc/default/apache2 /etc/default/apache-htcacheclean 2.4.18-2~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/apache2/mods-available/http2.load 2.4.18-2ubuntu3~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installdeb
+dpkg-maintscript-helper rm_conffile /etc/bash_completion.d/apache2 2.4.12-3~ -- "$@"
+# End automatically added section
+# Automatically added by dh_installinit
+if [ -x "/etc/init.d/apache2" ] || [ -e "/etc/init/apache2.conf" ]; then
+	invoke-rc.d apache2 stop || true
+fi
+# End automatically added section
+
