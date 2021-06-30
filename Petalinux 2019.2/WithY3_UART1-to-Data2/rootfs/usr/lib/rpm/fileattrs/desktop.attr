@@ -1,2 +1,0 @@
-%__desktop_provides	%{_rpmconfigdir}/desktop-file.prov
-%__desktop_path	^%{_datadir}/applications/.*\\.desktop$

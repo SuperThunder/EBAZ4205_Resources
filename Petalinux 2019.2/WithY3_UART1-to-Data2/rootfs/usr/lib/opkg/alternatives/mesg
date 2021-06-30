@@ -1,3 +1,0 @@
-/usr/bin/mesg
-/bin/busybox.nosuid 50
-/usr/bin/mesg.sysvinit 200

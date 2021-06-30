@@ -1,2 +1,0 @@
-%__debuginfo_provides %{_rpmconfigdir}/debuginfo.prov
-%__debuginfo_path ^/usr/lib/debug/

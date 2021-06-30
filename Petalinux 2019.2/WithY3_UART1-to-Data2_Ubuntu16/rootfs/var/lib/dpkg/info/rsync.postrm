@@ -1,8 +1,0 @@
-#!/bin/sh -e
-# postrm for rsync
-
-if [ "$1" = "purge" ] ; then
-    update-rc.d rsync remove >/dev/null
-fi
-
-exit 0

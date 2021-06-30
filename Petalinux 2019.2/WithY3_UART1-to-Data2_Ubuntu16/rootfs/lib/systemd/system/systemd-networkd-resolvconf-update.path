@@ -1,7 +1,0 @@
-[Unit]
-Description=Trigger resolvconf update for networkd DNS
-ConditionPathIsSymbolicLink=/etc/resolv.conf
-DefaultDependencies=no
-
-[Path]
-PathChanged=/run/systemd/netif/state

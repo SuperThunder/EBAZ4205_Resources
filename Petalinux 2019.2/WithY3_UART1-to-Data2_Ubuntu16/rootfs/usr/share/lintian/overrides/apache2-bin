@@ -1,3 +1,0 @@
-# Modules tend to not use protectable libc functions, which causes lots of
-# false positives.
-hardening-no-fortify-functions usr/lib/apache2/modules/*

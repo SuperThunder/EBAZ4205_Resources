@@ -1,3 +1,0 @@
-/bin/login
-/bin/busybox.suid 50
-/bin/login.shadow 200

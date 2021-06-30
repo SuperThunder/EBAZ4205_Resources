@@ -1,3 +1,0 @@
-/bin/pidof
-/bin/busybox.nosuid 50
-/bin/pidof.sysvinit 200

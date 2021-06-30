@@ -1,4 +1,0 @@
-* aptsources:
- - make the distro detection in sources.list more clever by using the
-   origin informaton to avoid adding full uris to (unofficial/internal)
-   mirrors

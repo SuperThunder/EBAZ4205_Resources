@@ -1,2 +1,0 @@
-%__metainfo_provides	%{_rpmconfigdir}/metainfo.prov
-%__metainfo_path	^%{_datadir}/(appdata|metainfo)/.*\\.(appdata|metainfo)\\.xml$

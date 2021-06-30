@@ -1,0 +1,8 @@
+verilog xil_defaultlib --include "../../../../petalinux_1.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../petalinux_1.srcs/sources_1/bd/design_1/ipshared/2d50/hdl" --include "../../../../petalinux_1.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0" \
+"../../../bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
+"../../../bd/design_1/ip/design_1_xlconcat_0_0/sim/design_1_xlconcat_0_0.v" \
+"../../../bd/design_1/ip/design_1_xlconcat_1_0/sim/design_1_xlconcat_1_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

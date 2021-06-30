@@ -1,3 +1,0 @@
-/etc/initramfs-tools/update-initramfs.conf
-/etc/kernel/postinst.d/initramfs-tools
-/etc/kernel/postrm.d/initramfs-tools

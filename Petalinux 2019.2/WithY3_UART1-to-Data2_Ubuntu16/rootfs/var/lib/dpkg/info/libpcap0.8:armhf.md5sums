@@ -1,7 +1,0 @@
-d5804c8cd943fae2adbfab86e4130c3d  usr/lib/arm-linux-gnueabihf/libpcap.so.1.7.4
-b08be640d15ea67c184f0b268cb39d22  usr/share/doc/libpcap0.8/CREDITS.gz
-319f714192aa9d2ab7e0510f9a930795  usr/share/doc/libpcap0.8/README
-fa0211217f9aceceefd225ce879c9504  usr/share/doc/libpcap0.8/README.Debian
-0544cd239fd8c256133342d8ec745455  usr/share/doc/libpcap0.8/changelog.Debian.gz
-e2611cc397822ac6d63e905e9d7cd727  usr/share/doc/libpcap0.8/copyright
-b7902b7a79debfa0355d8f1d19d3048d  usr/share/man/man7/pcap-filter.7.gz

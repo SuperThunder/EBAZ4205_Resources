@@ -1,7 +1,0 @@
-#!/bin/sh
-PATH=/bin:/usr/bin:/usr/sbin:/sbin
-if [ -w /var/log/ppp.log ]; then
-	wvdial "$@" >>/var/log/ppp.log 2>&1 &
-else
-	wvdial "$@" &
-fi

@@ -1,3 +1,0 @@
-/bin/sh
-/bin/busybox.nosuid 50
-/bin/bash.bash 100

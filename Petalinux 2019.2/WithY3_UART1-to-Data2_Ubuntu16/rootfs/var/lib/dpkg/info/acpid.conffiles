@@ -1,5 +1,0 @@
-/etc/acpi/events/powerbtn
-/etc/acpi/powerbtn.sh
-/etc/default/acpid
-/etc/init.d/acpid
-/etc/init/acpid.conf

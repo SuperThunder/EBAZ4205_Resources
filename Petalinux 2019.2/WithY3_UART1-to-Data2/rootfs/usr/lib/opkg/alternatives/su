@@ -1,3 +1,0 @@
-/bin/su
-/bin/busybox.suid 50
-/bin/su.shadow 200

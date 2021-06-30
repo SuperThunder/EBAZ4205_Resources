@@ -1,5 +1,0 @@
-interest /usr/lib/arm-linux-gnueabihf/gio/modules
-interest /usr/lib/gio/modules
-interest /usr/share/glib-2.0/schemas
-# Triggers added by dh_makeshlibs
-activate-noawait ldconfig

@@ -1,9 +1,0 @@
-[Unit]
-Description=USB_ModeSwitch_%i
-
-[Service]
-Type=oneshot
-ExecStart=/usr/sbin/usb_modeswitch_dispatcher --switch-systemd %i
-#ExecStart=/bin/echo %i
-Environment="TMPDIR=/run"
-
